@@ -115,7 +115,7 @@ if(NOT asio_POPULATED AND NOT TARGET asio)
 
   target_compile_features(asio PUBLIC cxx_std_11)
   target_compile_definitions(
-    asio PUBLIC -DASIO_STANDALONE -DASIO_SEPARATE_COMPILATION -DASIO_NO_DEPRECATED
+    asio PUBLIC -DASIO_STANDALONE -DASIO_SEPARATE_COMPILATION
   )
 
   # Fix warning : "Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately."
